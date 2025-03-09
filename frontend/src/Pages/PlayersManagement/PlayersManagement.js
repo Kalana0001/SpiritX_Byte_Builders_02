@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Navbar from '../../components/Navbar/Navbar'
 import Sidebar from '../../components/Sidebar/Sidebar'
 import HomeSection from '../../components/HomeSection/HomeSection'
 
-const AdminPanel = () => {
+const PlayersManagement = () => {
     const [isSidebarActive, setIsSidebarActive] = useState(false);
 
     const toggleSidebar = () => {
@@ -18,4 +17,4 @@ const AdminPanel = () => {
   )
 }
 
-export default AdminPanel
+export default PlayersManagement

@@ -6,7 +6,7 @@ const Sidebar = ({ isActive, toggleSidebar }) => {
     <div className={`sidebar ${isActive ? "active" : ""}`}>
       <div className="logo-details">
         <i className={`bx ${isActive ? "bx-menu-alt-right" : "bx-menu"}`} onClick={toggleSidebar}></i>
-        <span className="logo_name">CodingLab</span>
+        <span className="logo_name">MoraSpirit</span>
       </div>
       <ul className="nav-links">
         {[
