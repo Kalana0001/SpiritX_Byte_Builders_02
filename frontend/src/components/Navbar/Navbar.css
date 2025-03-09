@@ -1,0 +1,48 @@
+/* Navbar.css */
+.top-navbar {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(135deg,#ff4d4d,#ff0080,#6a0d6a, #0d021f );
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-navbar .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-navbar .nav-left .bx-menu {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .top-navbar .nav-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .top-navbar .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-navbar .nav-right .nav-link {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .top-navbar .nav-right .nav-link:hover {
+    color: #1abc9c;
+  }
